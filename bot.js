@@ -16,7 +16,7 @@ client.on("room.message", handleCommand)
 
 client.start().then(() => console.log("Client started"))
 
-async function handleCommand(roomId, event, client) {
+async function handleCommand(roomId, event) {
     if (!event["content"]) return
 
     if (event ["content"]["msgtype"] !== "m.text") return
@@ -27,7 +27,7 @@ async function handleCommand(roomId, event, client) {
     if (!body || !body.startsWith("!hello")) return
 
     const replyBody = "Hello"
-    const reply = RichReply.createFor(roomId, event, replyBody, replyBody)
+    const reply = sdk.RichReply.createFor(roomId, event, replyBody, replyBody)
     reply["msgtype"] = "m.notice"
     client.sendMessage(roomId, reply)
 }
