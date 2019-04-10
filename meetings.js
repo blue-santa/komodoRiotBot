@@ -8,7 +8,7 @@ const humanizeDuration = require('humanize-duration')
 /******************/
 
 // Define absolute variables
-const origin = new Date('Tue Apr 1 2019 16:00:00 GMT-0000 (UTC)')
+const origin = new Date('Tue Apr 1 2019 00:00:00 GMT-0000 (UTC)')
 
 const schedule = [
     {
