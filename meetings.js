@@ -20,7 +20,7 @@ const schedule = [
         "time":     "Wed Apr 2 2019 16:00:00 GMT-0000 (UTC)"
     },
     {
-        "title":    "IBN Standup",
+        "title":    "Tuesday IBN Standup",
         "time":     "Wed Apr 2 2019 17:00:00 GMT-0000 (UTC)"
     },
     {
@@ -33,11 +33,11 @@ const schedule = [
     },
     {
         "title":    "Thursday IBN Standup",
-        "time":     "Thu Apr 4 2019 15:00:00 GMT-0000 (UTC)"
+        "time":     "Thu Apr 4 2019 17:00:00 GMT-0000 (UTC)"
     },
     {
         "title":    "Thursday Wachsman",
-        "time":     "Thu Apr 4 2019 16:00:00 GMT-0000 (UTC)"
+        "time":     "Thu Apr 4 2019 18:00:00 GMT-0000 (UTC)"
     }
 ]
 
