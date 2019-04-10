@@ -1,0 +1,28 @@
+{
+  "name": "2019-04-09-matrixbot",
+  "version": "1.0.0",
+  "description": "KMD bot",
+  "main": "bot.js",
+  "dependencies": {
+    "assert": "^1.4.1",
+    "dotenv": "^7.0.0",
+    "find-config": "^1.0.0",
+    "humanize-duration": "^3.18.0",
+    "matrix-bot-sdk": "^0.3.4",
+    "timezone": "^1.0.22"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siddhartha-crypto/komodoRiotBot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/siddhartha-crypto/komodoRiotBot/issues"
+  },
+  "homepage": "https://github.com/siddhartha-crypto/komodoRiotBot#readme"
+}
